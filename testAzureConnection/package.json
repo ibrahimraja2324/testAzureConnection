@@ -1,0 +1,25 @@
+{
+  "name": "js-template-repo",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest",
+    "test-watch": "jest --watch *.js",
+    "dev": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "Dependencies": {},
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-schedule": "^2.1.1",
+    "open": "^10.1.0",
+    "qs": "^6.13.1"
+  }
+}
